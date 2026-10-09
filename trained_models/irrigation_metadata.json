@@ -1,0 +1,49 @@
+{
+  "model_name": "Farm AI Irrigation Estimator",
+  "version": "0.1",
+  "location": "Hyderabad, Telangana",
+  "latitude": 17.385,
+  "longitude": 78.4867,
+  "target": "irrigation_target_mm",
+  "features": [
+    "temperature_avg_c",
+    "temperature_max_c",
+    "temperature_min_c",
+    "relative_humidity_pct",
+    "rainfall_mm",
+    "wind_speed_2m_ms",
+    "solar_radiation_mj_m2_day",
+    "et0_mm_day",
+    "kc",
+    "available_water_mm_m",
+    "root_depth_m",
+    "allowable_depletion",
+    "crop",
+    "growth_stage",
+    "soil_type"
+  ],
+  "crops": [
+    "paddy",
+    "tomato",
+    "chili",
+    "maize",
+    "cotton",
+    "groundnut"
+  ],
+  "growth_stages": [
+    "initial",
+    "development",
+    "mid",
+    "late"
+  ],
+  "soil_types": [
+    "sandy",
+    "loamy",
+    "clay"
+  ],
+  "target_source": "Illustrative ETc minus effective-rainfall calculation; not observed farm irrigation",
+  "et0_method": "Hargreaves approximation",
+  "mae_mm_day": 0.028225040012094384,
+  "rmse_mm_day": 0.06455264962432407,
+  "r2": 0.9988931277365651
+}

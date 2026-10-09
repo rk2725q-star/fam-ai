@@ -1,0 +1,81 @@
+export const resourceCategories = [
+  'All',
+  'Crop Guide',
+  'Pest & Disease',
+  'Fertilizer',
+  'Irrigation',
+  'Best Practices',
+];
+
+export const resources = [
+  {
+    id: 1,
+    category: 'Crop Guide',
+    title: 'Paddy Cultivation Guide',
+    description: 'Complete guide for paddy farming — from seed selection to harvest.',
+    image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800&q=80',
+  },
+  {
+    id: 2,
+    category: 'Pest & Disease',
+    title: 'Tomato Disease Management',
+    description: 'Identify and manage common tomato diseases like blight and leaf spot.',
+    image: 'https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=800&q=80',
+  },
+  {
+    id: 3,
+    category: 'Best Practices',
+    title: 'Soil Health Improvement',
+    description: 'Practical methods to improve soil quality and fertility naturally.',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
+  },
+  {
+    id: 4,
+    category: 'Irrigation',
+    title: 'Water Management',
+    description: 'Efficient irrigation methods for water conservation and better yield.',
+    image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80',
+  },
+  {
+    id: 5,
+    category: 'Fertilizer',
+    title: 'Fertilizer Guide',
+    description: 'Nutrient management during different crop growth stages.',
+    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80',
+  },
+  {
+    id: 6,
+    category: 'Pest & Disease',
+    title: 'Pest Control Methods',
+    description: 'Common pest identification and integrated pest management.',
+    image: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&q=80',
+  },
+  {
+    id: 7,
+    category: 'Crop Guide',
+    title: 'Seasonal Advisory',
+    description: 'Important seasonal farming practices for better crop outcomes.',
+    image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80',
+  },
+  {
+    id: 8,
+    category: 'Best Practices',
+    title: 'Crop Protection',
+    description: 'Best practices for protecting crops from weather and pests.',
+    image: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&q=80',
+  },
+  {
+    id: 9,
+    category: 'Irrigation',
+    title: 'Drip Irrigation Basics',
+    description: 'How to set up and maintain drip irrigation for vegetables.',
+    image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80',
+  },
+  {
+    id: 10,
+    category: 'Fertilizer',
+    title: 'Organic Fertilizers',
+    description: 'Using compost, vermicompost and green manure effectively.',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
+  },
+];
